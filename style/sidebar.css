@@ -1,0 +1,41 @@
+.sidebar{
+    position: fixed;
+    top:56px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    padding-top:6px;
+    border-top: 1px solid white;
+    border-right: 1px solid rgba(96,96,96,0.2);
+    z-index: 1;
+    background-color: white;
+    
+
+    /*
+    border-right: 1px solid rgba(96,96,96,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    */
+}
+.sidebar-container{
+    width: 72px;
+    height: 74px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+}
+.img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+.name{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 500;
+}
